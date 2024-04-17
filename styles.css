@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+.box{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:90vh;
+	width:90vw;
+	animation:pulse 1s ease infinite;
+	
+	
+	
+}
+.red-box{
+	height:100px;
+	width:100px;
+	background-color:red;
+}
+@keyframes pulse {
+                0% {
+                    transform: scale(1);
+                }
+                50% {
+                    transform: scale(1.1);
+                }
+                100% {
+                    transform: scale(1);
+                }
+            }
